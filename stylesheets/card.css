@@ -1,0 +1,23 @@
+.tools .card {
+  width: 170px;
+  height: 180px;
+  padding: 30px 15px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.07);
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.card h3 {
+  font-weight: normal;
+}
+
+.card h3, .card p {
+  color: rgba(0,0,0,0.5);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(0,0,0,0.07);
+}

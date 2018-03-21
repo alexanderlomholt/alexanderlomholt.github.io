@@ -1,0 +1,18 @@
+.banner {
+  max-width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url('../images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 10px solid rgb(103, 211, 193);
+  height: 50vh;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.banner h2 {
+  margin: 10px 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+}
